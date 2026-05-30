@@ -2,7 +2,7 @@ This folder contains the data and code for the city-level analysis in the manusc
 
 ## Data
 
-- `BJ_visit_volume.csv`: processed grid-level dataset used as the input for the Poisson regression models. The dataset contains aggregate visit-volume measures and built-environment/accessibility variables for the city-level analysis.
+- `BJ_visit_volume.zip`: processed grid-level dataset used as the input for the Poisson regression models. The dataset contains aggregate visit-volume measures and built-environment/accessibility variables for the city-level analysis. Due to file size limitations, a compressed file has been uploaded here. It should be decompressed to your local machine before running the regression code.
 
 ## Code
 
@@ -14,7 +14,7 @@ This folder contains the data and code for the city-level analysis in the manusc
 
 ## Input and output
 
-The script uses the following input file:
+The script uses the following input file (after decompressing BJ_visit_volume.zip):
 
 ```text
 BJ_visit_volume.csv
